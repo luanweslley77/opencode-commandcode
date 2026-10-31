@@ -1,0 +1,36 @@
+{
+  "name": "opencode-commandcode",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenCode plugin for Command Code (v1 + v2): provider, /connect, live model catalog, and plan detection.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Luan Weslley",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanweslley77/opencode-commandcode.git"
+  },
+  "homepage": "https://github.com/luanweslley77/opencode-commandcode#readme",
+  "bugs": {
+    "url": "https://github.com/luanweslley77/opencode-commandcode/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "commandcode",
+    "llm",
+    "provider"
+  ],
+  "main": "./command_code.ts",
+  "exports": {
+    ".": "./command_code.ts",
+    "./server": "./command_code.ts"
+  },
+  "files": [
+    "command_code.ts",
+    "README.md"
+  ],
+  "engines": {
+    "opencode": ">=1.18.0"
+  }
+}
