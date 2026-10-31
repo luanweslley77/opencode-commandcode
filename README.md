@@ -86,4 +86,4 @@ Antes do `/connect`, o provider aparece com um único placeholder. Depois do `/c
 
 ## Licença
 
-MIT. Não afiliado ao Command Code.
+MIT. Copyright (c) 2026 Luan Weslley. Veja [LICENSE](LICENSE). Não afiliado ao Command Code.

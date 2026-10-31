@@ -28,7 +28,8 @@
   },
   "files": [
     "command_code.ts",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "opencode": ">=1.18.0"
